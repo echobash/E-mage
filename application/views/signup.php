@@ -80,36 +80,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 										
 											<!-- <?php echo $error;?> -->
 										<div class="form-group">                                        
-											<label class="control-label col-sm-2" for="firstname">First Name:</label>
-											<div class="col-md-3 col-xs-12">
+											<label class="control-label col-md-3 col-xs-12" for="firstname">First Name:</label>
+											<div class="col-md-6 col-xs-12">
 												<input type="text" required="yes" class="form-control" id="firstname" placeholder="Enter First Name" name="firstname"> 
-											</div>
+											</div><br>
 										</div>
 										<div class="form-group">                                        
-											<label class="col-md-3 col-xs-12 control-label">Last Name:</label>
+											<label class="col-md-3 col-xs-12 control-label" for="lastname">Last Name:</label>
 											<div class="col-md-6 col-xs-12">
 												<input type="text" required="yes" class="form-control" id="lastname" placeholder="Enter Last Name" name="lastname">	  
-											</div>
+											</div><br>
 										</div>
 										<div class="form-group">                                        
-											<label class="col-md-3 col-xs-12 control-label">Email</label>
+											<label class="col-md-3 col-xs-12 control-label" for="email">Email</label>
 											<div class="col-md-6 col-xs-12">
 												<input type="email" required="yes" class="form-control" id="email" placeholder="Enter Email" name="email">	  
-											</div>
+											</div><br>
 										</div>
 
 										<div class="form-group">                                        
 											<label class="col-md-3 col-xs-12 control-label">Password</label>
 											<div class="col-md-6 col-xs-12">
 												<input type="password" required="yes" class="form-control" id="password" placeholder="Enter Password" name="password">	  
-											</div>
+											</div><br>
 										</div>
 										
 										<div class="form-group">                                        
 											<label class="col-md-3 col-xs-12 control-label">Match Password</label>
 											<div class="col-md-6 col-xs-12">
 												<input type="password" required="yes" class="form-control" id="match_password" placeholder="Enter Password" name="match_password">	  
-											</div>
+											</div><br>
 										</div>										
 										
 
