@@ -73,7 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 									<div class="panel-body"> 
 										<?php
 											$attributes = array('role' => 'form', 'id' => 'from_add_course_category' , 'class' => 'form-horizontal validate');
-										    echo form_open(/*SUB_ADMIN_URL."/gadget_cat_mapping/save",*/ $attributes);
+										    echo form_open(base_url('dashboard/registerUser'), $attributes);
 										    
 										?>
 
