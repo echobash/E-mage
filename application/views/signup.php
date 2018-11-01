@@ -70,7 +70,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
 <div class="container">
-	div class="panel-body">
 									<div class="panel-body"> 
 										<?php
 											$attributes = array('role' => 'form', 'id' => 'from_add_course_category' , 'class' => 'form-horizontal validate');
@@ -130,19 +129,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
     
   
-    <div class="form-group">        
-      <div class="col-sm-offset-2 col-sm-10">
-        <div class="checkbox">
-          <label><input type="checkbox"  name="remember"> Remember me</label>
-        </div>
-      </div>
-    </div>
-    <div class="form-group">        
-      <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default">Submit</button>
-      </div>
-    </div>
-</div>
+    
+   
 
 </body>
 </html>
