@@ -49,9 +49,17 @@ class Signup_model extends CI_Model {
 
 	}
 
-	public function addUser()
-	{
-		
+	public function addUser($data)
+	{	
+		$email=$data['email'];die;
+		$query=$this->db->query("select * from bs_signup where email=$email);
+		echo $this->db->last_query();die;
+		if($query->num_rows())
+		{
+			echo "duplicacy";die;
+		}else{
+		$result=$this->db->insert(SIGNUP_TABLE, $data);
+			  }
 	}
 
 

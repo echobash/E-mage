@@ -23,9 +23,7 @@ class Dashboard extends CI_Controller {
 		'email'=>$this->input->post('email'),
 		'password'=>$this->input->post('password')
 		);
-		echo "<pre>";print_r($data);
-		//'user_id', 'first_name', 'last_name', 'email', 'active', 'password'
-		$this->signup_model->addUser();
+		$this->signup_model->addUser($data);
 
 	}
 }
